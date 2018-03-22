@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuracao>    
+    
+    <relatorio id="1" class="RelatorioPessoa" singleton="true">    
+        <nomeArquivo>Relatorio - Pessoa 01</nomeArquivo>     
+        <cabecalho>Titulo do Relatorio - Pessoa 01</cabecalho>
+        <data>10/11/2017</data>
+        <rodape>Rodape - Pessoa 01</rodape>           
+        <fontTabelaCabecalho>Cooper</fontTabelaCabecalho>        
+        <fontSizeTabelaCabecalho>20</fontSizeTabelaCabecalho>
+        <fontTabelaLinha>Cooper</fontTabelaLinha>        
+        <fontSizeTabelaLinha>15</fontSizeTabelaLinha>    
+        <fontCabecalho>Cooper</fontCabecalho>
+        <fontSizeCabecalho>20</fontSizeCabecalho>    
+        <fontRodape>Cooper</fontRodape>
+        <fontSizeRodape>20</fontSizeRodape>
+    </relatorio>
+    
+    <relatorio id="2" class="RelatorioCarro" singleton="false">    
+        <nomeArquivo>Relatorio - Carro 01</nomeArquivo>     
+        <cabecalho>Titulo do Relatorio - Carro 01</cabecalho>
+        <data>10/11/2017</data>
+        <rodape>Rodape - Carro 01</rodape>           
+        <fontTabelaCabecalho>Cooper</fontTabelaCabecalho>        
+        <fontSizeTabelaCabecalho>30</fontSizeTabelaCabecalho>
+        <fontTabelaLinha>Cooper</fontTabelaLinha>        
+        <fontSizeTabelaLinha>20</fontSizeTabelaLinha>    
+        <fontCabecalho>Cooper</fontCabecalho>
+        <fontSizeCabecalho>20</fontSizeCabecalho>    
+        <fontRodape>Cooper</fontRodape>
+        <fontSizeRodape>20</fontSizeRodape>
+    </relatorio>
+ 
+        
+    <relatorio id="3" class="RelatorioCarro" singleton="true">
+        <nomeArquivo>Relatorio - Carro 02</nomeArquivo>  
+        <cabecalho>Titulo do Relatorio - Carro 02</cabecalho>
+        <data>10/11/2017</data>
+        <rodape>Rodape - Carro 02</rodape>             
+        <fontTabelaCabecalho>Cooper</fontTabelaCabecalho>        
+        <fontSizeTabelaCabecalho>15</fontSizeTabelaCabecalho>
+        <fontTabelaLinha>Cooper</fontTabelaLinha>        
+        <fontSizeTabelaLinha>15</fontSizeTabelaLinha>    
+        <fontCabecalho>Cooper</fontCabecalho>
+        <fontSizeCabecalho>20</fontSizeCabecalho>    
+        <fontRodape>Cooper</fontRodape>
+        <fontSizeRodape>20</fontSizeRodape>
+    </relatorio>
+
+    <relatorio id="4" class="RelatorioPessoa" singleton="false">
+        <nomeArquivo>Relatorio - Pessoa 02</nomeArquivo>  
+        <cabecalho>Titulo do Relatorio</cabecalho>
+        <data>10/11/2017</data>
+        <rodape>Rodape - Pessoa 02</rodape>             
+        <fontTabelaCabecalho>Cooper</fontTabelaCabecalho>        
+        <fontSizeTabelaCabecalho>20</fontSizeTabelaCabecalho>
+        <fontTabelaLinha>Cooper</fontTabelaLinha>        
+        <fontSizeTabelaLinha>15</fontSizeTabelaLinha>    
+        <fontCabecalho>Cooper</fontCabecalho>
+        <fontSizeCabecalho>20</fontSizeCabecalho>    
+        <fontRodape>Cooper</fontRodape>
+        <fontSizeRodape>20</fontSizeRodape>
+    </relatorio>
+
+    <gerarRelatorio id="100" class="RelatorioRTF" idGerar="1"/>
+    <gerarRelatorio id="600" class="RelatorioPDF" idGerar="1"/>
+    <gerarRelatorio id="1000" class="RelatorioHTML" idGerar="1"/>
+    
+    <gerarRelatorio id="200" class="RelatorioRTF" idGerar="2"/>
+    <gerarRelatorio id="700" class="RelatorioPDF" idGerar="2"/>
+    <gerarRelatorio id="2000" class="RelatorioHTML" idGerar="2"/>
+    
+    <gerarRelatorio id="300" class="RelatorioHTML" idGerar="3"/>
+    <gerarRelatorio id="3000" class="RelatorioRTF" idGerar="3"/>
+    <gerarRelatorio id="500" class="RelatorioPDF" idGerar="3"/>
+    
+    <gerarRelatorio id="400" class="RelatorioRTF" idGerar="4"/>
+    <gerarRelatorio id="800" class="RelatorioPDF" idGerar="4"/>
+    <gerarRelatorio id="900" class="RelatorioHTML" idGerar="4"/>
+    
+</configuracao> 
