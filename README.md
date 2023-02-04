@@ -10,8 +10,9 @@
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Pessoas Contribuidoras](#pessoas-contribuidoras)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
 * [Conclusão](#conclusão)
 
+#Título-e-Imagem-de-capa
+teste
 ## Executar Aplicação
 Ler o arquivo "Manual.pdf"
