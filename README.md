@@ -25,6 +25,5 @@ framework.
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``Java 8``
-- ``Eclipse IDEA``
 - ``Paradigma de orientação a objetos``
 - ``Padrões de projeto``
