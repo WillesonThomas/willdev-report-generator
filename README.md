@@ -1,6 +1,5 @@
-# PadroesDeProjeto-Framework-GeradorRelatorio
-## Descrição da Aplicação
-Aplicação referente ao desenvolvimento de um framework para geração de relatórios conforme os seguintes requisistos:
+<h1 align="center">Report Generator</h1>
+Aplicação referente ao desenvolvimento de um framework para geração de relatórios com aplicação de padrões de projeto.
 
 ## 🔨 Funcionalidades do projeto
 1. Cria relatório como tabela (várias linhas e colunas), podendo conter cabeçalho das colunas.
