@@ -20,7 +20,7 @@ framework.
 14. Configurar valores para os atributos dos objetos e funcionar no framework
 
 ## 📁 Acesso ao projeto
-* Ler o arquivo [Manual - Report Generator.pdf](https://github.com/WillesonThomas/willdev-report-generator/files/10609776/Manual.-.Report.Generator.pdf)
+* O arquivo [Manual - Report Generator.pdf](https://github.com/WillesonThomas/willdev-report-generator/files/10609776/Manual.-.Report.Generator.pdf) apresenta mais detalhes quanto ao desenvolvimento do projeto e sua respectiva aplicação.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
