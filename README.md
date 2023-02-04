@@ -1,18 +1,31 @@
-# Índice 
+# PadroesDeProjeto-Framework-GeradorRelatorio
+## Descrição da Aplicação
+Aplicação referente ao desenvolvimento de um framework para geração de relatórios conforme os seguintes requisistos:
 
-* [Report Generator](#Título-e-Imagem-de-capa)
-* [Badges](#badges)
-* [Índice](#índice)
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#status-do-Projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Conclusão](#conclusão)
+## 🔨 Funcionalidades do projeto
+1. Cria relatório como tabela (várias linhas e colunas), podendo conter cabeçalho das colunas.
+2. A saída do relatório é para um arquivo HTML.
+3. Cada relatório deve ser uma subclasse desenvolvida pelo programador.
+4. Pode-se definir o tipo de fonte (nome, tamanho, negrito e/ou sublinhado) dos cabeçalhos e/ou corpo da tabela.
+5. Além da possibilidade de HTML, a saída do relatório pode ser para um arquivo RTF ou PDF.
+6. É possível definir o tamanho das páginas A4 ou Carta.
+7. Os relatórios podem conter gráficos de pizza e/ou de coluna.
+8. Pode-se definir cabeçalhos e rodapés que se repitam em cada página.
+9. Cabeçalhos e rodapés podem conter textos.
+10. Por padrão o framework deve adota a Injeção de Dependência por construtor.
+11. Configurações são definidas num arquivo XML.
+12. Poder ser configurado o estado dos objetos (Singleton ou instanciável várias
+vezes) e funcionar no framework.
+13. Configurar a Injeção de Dependência por métodos assessores e funcionar no
+framework.
+14. Configurar valores para os atributos dos objetos e funcionar no framework
 
-#Título-e-Imagem-de-capa
-teste
-## Executar Aplicação
-Ler o arquivo "Manual.pdf"
+## 📁 Acesso ao projeto
+* Ler o arquivo [Manual  - Trabalho 03.pdf](https://github.com/WillesonThomas/willdev-report-generator/files/10609408/Manual.-.Trabalho.03.pdf)
+
+## ✔️ Técnicas e tecnologias utilizadas
+
+- ``Java 8``
+- ``Eclipse IDEA``
+- ``Paradigma de orientação a objetos``
+- ``Padrões de projeto``
